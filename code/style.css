@@ -146,6 +146,7 @@ a{
     border-radius: 10px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .signup-button-2{
