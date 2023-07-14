@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
 *{
     font-family: 'Roboto', sans-serif;
 }
@@ -7,8 +8,8 @@ body{
     margin: 0;
 }
 
-button{
-    padding: 10px 25px;
+.signup-button-1{
+    padding: 8px 25px;
     max-width: 130px;
     background-color: #3882F6;
     border: none;
@@ -85,7 +86,7 @@ a{
  }
 
 .info-section{
-    padding: 70px 100px 100px 110px;
+    padding: 70px 100px 100px 100px;
     text-align: center;
 }
 
@@ -116,3 +117,60 @@ a{
     height: auto;
 }
 
+.quote-section{
+    background-color: #E5E7EB;
+    padding: 130px 150px 110px 150px;
+}
+
+.quote{
+    font-size: 32px;
+    font-style: italic;
+    color: #1F2937;
+    margin-bottom: 10px;
+}
+
+.thor{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: end;
+}
+
+.signup-section{
+    padding: 90px 180px;
+}
+
+.signup-box{
+    background-color: #3882F6;
+    color: white;
+    padding: 40px 80px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.signup-button-2{
+    border: 2px solid;
+    border-color: white;
+    padding: 8px 30px;
+    max-width: 200px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.signup-header{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.other-text{
+    color: #E5E7EB;
+}
+
+.footer{
+    background-color: #1F2937;
+    text-align: center;
+    color: white;
+    padding: 35px;
+}
